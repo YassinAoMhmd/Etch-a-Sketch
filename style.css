@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+}
+
+.Size{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.grid {
+    margin-top: 50px;
+    display: grid;
+    border: solid black;
+    border-radius: 2.5px;
+    height: 400px;
+    width: 500px;
+}
+
+.square {
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+}
+
+
+
